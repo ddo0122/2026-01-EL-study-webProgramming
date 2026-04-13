@@ -1,1 +1,1 @@
-# 2026-01-EL-study-webProgramming
+# 2026년 1학년 1학기 EL 웹프로그래밍 스터디입니다.
