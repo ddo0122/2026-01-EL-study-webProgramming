@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>transform</title>
+    <style>
+      div {
+        text-align: center;
+        line-height: 100px;
+        width: 100px;
+        height: 100px;
+      }
+
+      .translate {
+        background-color: pink;
+      }
+
+      .translate:hover {
+        transform: translate(100px, 100px);
+      }
+
+      .scale {
+        background-color: yellow;
+        position: relative;
+        left: 100px;
+        top: 100px;
+      }
+
+      .scale:hover {
+        transform: scale(2, 2);
+      }
+
+      .rotate {
+        position: relative;
+        background: green;
+        left: 200px;
+        top: 150px;
+      }
+
+      .rotate:hover {
+        transform: rotate(90deg);
+      }
+
+      .skew {
+        background: skyblue;
+        position: relative;
+        left: 300px;
+        top: 200px;
+      }
+
+      .skew:hover {
+        transform: skew(30deg, 30deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="translate">translate</div>
+    <div class="scale">scale</div>
+    <div class="rotate">rotate</div>
+    <div class="skew">skew</div>
+  </body>
+</html>

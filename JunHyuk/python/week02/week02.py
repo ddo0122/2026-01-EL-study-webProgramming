@@ -4,10 +4,26 @@ b = 3.14        # float
 c = "hello"     # str
 d = True        # bool
 
+a = 10
+b = 3.14
+c = 'hello'
+d = True #False
+
 lst = [1, 2, 3]
 tpl = (1, 2, 3)
 st = {1, 2, 3}
-dic = {"name": "Tom", "age": 20}
+
+lst = ['apple', 'banana', 'orange']
+print(lst[0])
+
+tpl = ('jhon', 'smith', 'jackson')
+print(tpl[0])
+
+st = {1, 2, 2, 3}
+print(st)
+
+dic = {"fruit" : "apple", "name" : "tom"}
+print(dic['fruit'])
 
 print('자료형 모음')
 print(type(a), type(b), type(c), type(d),'\n', type(lst), type(tpl), type(st), type(dic))
